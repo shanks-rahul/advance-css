@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            height: 25rem;
+            /* justify-items: center; */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+
+        }
+
+        .card {
+            height: 17rem;
+            width: 17rem;
+            background: linear-gradient(to bottom, skyblue, darkblue);
+            border: 2px solid;
+            border-radius: 9px;
+            transition: all 2s ease;
+        }
+
+        .date {
+            color: white;
+        }
+
+        footer {
+            text-align: center;
+
+        }
+
+        .btn {
+            background: linear-gradient(to right, skyblue, lime);
+            padding: 4px 39px;
+            border-radius: 9px;
+        }
+
+        .card:hover {
+            transform: rotate(-0.2turn);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="card">
+        <header>
+            <div class="num">
+                <h1>#01</h1>
+            </div>
+            <div class="date">Created on:01|01|23</div>
+        </header>
+        <section>
+            <h2>important dates</h2>
+            <ul>
+                <li>Januray 26-Republic day</li>
+                <li>August 15-Independence Day</li>
+                <li>October 2-Gandhi Jayanti</li>
+                <li>August 29-National sports Day</li>
+            </ul>
+        </section>
+        <footer>
+            <button class="btn">Mark As Done</button>
+        </footer>
+    </div>
+</body>
+
+</html>
